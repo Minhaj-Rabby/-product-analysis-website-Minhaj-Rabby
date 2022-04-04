@@ -1,0 +1,53 @@
+[
+	{
+		"id": "624ad2e692098c453963223f",
+		"img": "img/1.png",
+		"rating": 4,
+		"name": "Karen Ibarra",
+		"review": "Good looking. Delivery good. Just as described."
+	},
+	{
+		"id": "624ad2e633828e9ce8991109",
+		"img": "img/2.png",
+		"rating": 5,
+		"name": "Jhon Smith",
+		"review": "Just as described. loved it."
+	},
+	{
+		"id": "624ad2e69a1c092807153f1c",
+		"img": "img/3.png",
+		"rating": 4,
+		"name": "Christine",
+		"review": "The size is perfect and we love that it doesnot have a ton of pockets."
+	},
+
+	{
+		"id": "624ad2e62df3812c5b2d7021",
+		"img": "img/4.png",
+		"rating": 4,
+		"name": "Kevin Copper",
+		"review": "I purchased this backpack specifically for a family trip to theme parks and it was perfect."
+	},
+	{
+		"id": "624ad2e655a83a77ce0038d8",
+		"img": "img/5.png",
+		"rating": 3,
+		"name": "Cleo Dorey",
+		"review": "The backpack is good quality "
+	},
+	{
+		"id": "624ad2e683f4f7752d025095",
+		"img": "img/6.png",
+		"rating": 4,
+		"name": "Emilia Noble",
+		"review": "Color combination is good .but add more funtionality. "
+	},
+	{
+		"id": "624ad2e6210649c18217175d",
+		"img": "img/7.png",
+		"rating": 5,
+		"name": "Carla Dodson",
+		"review": "Works out great but the champion logo is already worn off! Bummer"
+	}
+	
+]

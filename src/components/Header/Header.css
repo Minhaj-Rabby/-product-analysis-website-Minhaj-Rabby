@@ -1,0 +1,13 @@
+.a:hover {
+	color: orange;
+}
+
+.header-design {
+	background-color: #1C2B35;
+	color: #fff;
+	z-index: 10000;
+}
+.design{
+	background-color: #1C2B35;
+	color: #fff;
+}
