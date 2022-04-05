@@ -20,9 +20,9 @@ const Home = () => {
 						className="order-2 md:order-1"
 					>
 						<h1 className="text-4xl md:text-5xl font-bold text-white">
-							Find Your Perfectly matched Bags{" "}
+							Find Your Perfectly Matched Bags{" "}
 						</h1>
-						<p className="text-base md:text-xl mt-4 mb-20">
+						<p className="text-base md:text-xl mt-4 mb-10">
 							Check out our new and amazing collection for woman,
 							man, girls, boys and baby with varity of  choice.
 						</p>
