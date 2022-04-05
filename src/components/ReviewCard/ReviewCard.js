@@ -9,7 +9,7 @@ const ReviewCard = (props) => {
 		for (let i = 0; i < rating; i++) {
 			ratings.push(
 				<FontAwesomeIcon
-					className="text-blue-600"
+					className="text-orange-600"
 					key={i}
 					icon={faStar}
 				/>

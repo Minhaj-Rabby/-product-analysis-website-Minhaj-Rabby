@@ -20,11 +20,10 @@ const Home = () => {
 						className="order-2 md:order-1"
 					>
 						<h1 className="text-4xl md:text-5xl font-bold text-white">
-							Find Your Perfectly Matched Bags{" "}
+							Women's Bag Review{" "}
 						</h1>
 						<p className="text-base md:text-xl mt-4 mb-10">
-							Check out our new and amazing collection for woman,
-							man, girls, boys and baby with varity of  choice.
+							Check out our new and amazing collection for woman with varity of  choice and learn what our client say about those products.
 						</p>
 						<button
 							className="py-2 px-6 rounded uppercase font-bold"
@@ -47,7 +46,7 @@ const Home = () => {
 				style={{ color: "#221E20" }}
 			>
 				<h3 className="text-center my-8 text-3xl">
-					What Our Clients Say
+					Customer Review(3)
 				</h3>
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
 					{reviews.slice(0, 3).map((review) => (
@@ -56,7 +55,7 @@ const Home = () => {
 				</div>
 				<div className="flex justify-end mt-5">
 					<Link to={"/reviews"}>
-						<button className="bg-blue-900 text-white py-1 px-4 rounded">
+						<button className="bg-orange-600 text-white py-1 px-4 rounded">
 							See All
 							<FontAwesomeIcon
 								className="ml-1"
