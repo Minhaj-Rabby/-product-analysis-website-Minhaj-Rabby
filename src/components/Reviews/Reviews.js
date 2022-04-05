@@ -1,10 +1,9 @@
-import React, { useContext } from "react";
-import { ReviewContext } from "../../Global/ReviewContext";
 import ReviewCard from "../ReviewCard/ReviewCard";
 import styles from "./Reviews.module.css";
+import useReviews from "../../Hooks/useReviews"
 
 const Reviews = () => {
-	const { reviews } = useContext(ReviewContext);
+	const [reviews, setReviews] = useReviews();
 	return (
 		<div className={`${styles.reviewBg} py-14 shadow-lg`}>
 			<div

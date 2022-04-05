@@ -17,17 +17,17 @@ function App() {
 			  <Route
 				  path="/"
 				  element={
-					  <ReviewContextProvider>
+					 
 						  <Home />
-					  </ReviewContextProvider>
+					  
 				  }
 			  ></Route>
 			  <Route
 				  path="/reviews"
 				  element={
-					  <ReviewContextProvider>
+					
 						  <Reviews />
-					  </ReviewContextProvider>
+					
 				  }
 			  ></Route>
 			  <Route

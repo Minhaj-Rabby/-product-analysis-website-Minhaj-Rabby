@@ -64,38 +64,6 @@ const Dashboard = () => {
 					/>
 				</AreaChart>
 			</div>
-			<div className="flex flex-col justify-center items-center border-4 py-5">
-				<span className="text-green-600 uppercase text-lg font-bold mb-4">
-					Invesment vs Revenue
-				</span>
-
-				<RadarChart
-					width={300}
-					height={200}
-					cx="50%"
-					cy="50%"
-					outerRadius="80%"
-					data={data}
-				>
-					<PolarGrid />
-					<PolarAngleAxis dataKey="month" />
-					<PolarRadiusAxis />
-					<Tooltip />
-					<Legend />
-					<Radar
-						dataKey="investment"
-						stroke="#8884d8"
-						fill="#8884d8"
-						fillOpacity={0.6}
-					/>
-					<Radar
-						dataKey="revenue"
-						stroke="#c23616"
-						fill="#c23616"
-						fillOpacity={1}
-					/>
-				</RadarChart>
-			</div>
 		</div>
 	);
 };

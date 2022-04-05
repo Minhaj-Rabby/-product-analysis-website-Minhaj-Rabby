@@ -1,13 +1,12 @@
-import React, { useContext } from "react";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import { ReviewContext } from "../../Global/ReviewContext";
 import ReviewCard from "../ReviewCard/ReviewCard";
 import styles from "./Home.module.css";
+import useReviews from "../../Hooks/useReviews"
 
 const Home = () => {
-	const { reviews } = useContext(ReviewContext);
+	const [reviews, setReviews] = useReviews();
 	return (
 		<div className={` py-10 shadow-lg`}>
 			<div className={`${styles.bg} py-12 px-4 md:px-1`}>
