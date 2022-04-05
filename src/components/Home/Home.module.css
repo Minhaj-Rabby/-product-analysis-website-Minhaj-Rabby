@@ -1,0 +1,13 @@
+.bg {
+  
+    background: #ffbd59;
+
+}
+
+.reviewBg {
+    background-image: linear-gradient(to left,
+            #0fbcf9 0%,
+            #0fbcf9 50%,
+            #d1e2e9 50%,
+            #d1e2e9 100%);
+}
