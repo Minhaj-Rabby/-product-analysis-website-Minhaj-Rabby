@@ -12,7 +12,7 @@ const Header = () => {
 				<nav className="flex justify-between items-center py-2 md:px-0 px-4">
 					<div>
 						<NavLink to={"/"}>
-							<span>Bags Shop</span>
+							<span>Bag's Shop</span>
 						</NavLink>
 					</div>
 					<div
